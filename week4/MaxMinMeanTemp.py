@@ -1,5 +1,3 @@
-import statistics
-
 templist = []
 check = True
 
