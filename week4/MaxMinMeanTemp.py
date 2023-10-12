@@ -9,10 +9,8 @@ while check:
         temp = temp[:-1]
         templist.append(temp)
 
-maxtemp = max(templist) + 'C'
-mintemp = min(templist) + 'C'
 templist = [float(n) for n in templist]
 meantemp = sum(templist) / len(templist)
-print("The maximum temperature is", maxtemp)
-print("The minimum temperature is", mintemp)
-print("The mean temperature is", round(meantemp, 2), "C")
+print("The maximum temperature is", max(templist), 'C')
+print("The minimum temperature is", min(templist), 'C')
+print("The mean temperature is", round(meantemp, 2), 'C')
